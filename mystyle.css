@@ -1,0 +1,34 @@
+<link rel = "stylesheet"
+type = "text/css"
+href = "myStyle.css" >
+
+
+body {
+    background: white;
+}
+.headerstyle1 {
+    text-align: center;
+}
+.headerstyle2 {
+    text-align: center;
+}
+.photo{
+    float: left;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+.textstyle {
+    padding: 5%;
+    display: inline-block;
+    width: 40%;
+    text-align: justify;
+}
+.photo1 {
+    width: 40%;
+    height: 40%;
+}
+.photo2 {
+    width: 40%;
+    height: 40%;
+}
