@@ -1,48 +1,79 @@
 <!doctype html>
 <html>
     <head>
-             <title>
-                 My mom
-             </title>
-             <style>body {
-                background: white;
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <title>
+                My mom
+        </title>
+
+        <style>
+            
+            body {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-size: cover;
+                height: 100vh;
+                margin: 0;
+                background-image: url("images/background6.jpeg");
+                box-shadow: inset -8px -8px 50px 1px rgba(0, 0, 0, 0.5)
             }
-            .headerstyle1 {
-                text-align: center;
+                
+            .polaroid {
+                box-shadow: 15px 12px 10px 1px rgba(0, 0, 0, 0.3);
+                border: solid rgb(236, 236, 236);
+                border-width: 1vh 1vh 8vh 1vh;
             }
-            .headerstyle2 {
-                text-align: center;
+
+            .photo {
+                width: 12vw;
             }
-            .photo{
-                float: left;
-                margin: auto;
-                width: 40%;
-                height: 40%;
+
+            .bdayphoto {
+                position: absolute;
+                right: 23vw
             }
-            .textstyle {
-                padding: 5%;
-                display: inline-block;
-                width: 40%;
-                text-align: justify;
+
+            .youngermom {
+                position: absolute;
+                right: 17vw;
+                top: 25vw;
             }
-            .photo1 {
-                width: 40%;
-                height: 40%;
+
+            .textstyle1 {
+                font-family: 'Oswald', sans-serif;
+                font-size: 2vw;
+                color: rgba(0, 0, 0, .7)
             }
-            .photo2 {
-                width: 40%;
-                height: 40%;
+
+            .textstyle2 {
+                position: relative;
+                font-family: 'Oswald', sans-serif;
+                color: rgba(0, 0, 0, 0.5);
+                font-size: 1vw;
+                left: 28vw;
+                top: -1.5vw;
             }
-            </style>
+
+            .textcontainer {
+
+            }
+
+        </style>
     </head>
+    
     <body>
-        <img class="photo" src="images\oldphoto.jpg">
-        
-        <div class="textstyle">
-            <p>You always made me feel like I had family  <hr>
-               Lorem ipsum dolor sit amet, consectetur adipiscing e</p>    
-        <img class="photo1" src="images\2.jpg">
-        <img class="photo2" src="images\3.jpg">    
+ 
+        <div class="textcontainer">
+            <p class="textstyle1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> 
+            
+            <p class="textstyle2">Nunc ac ornare dolor, vitae commodo lacus.</p>
         </div>
+
+        <img class="photo polaroid" src="images/18.jpg">
+        <img class="photo polaroid bdayphoto" src="images/22.jpg">
+        <img class="photo polaroid youngermom" src="images/25.jpg">
+
+
      </body>
 </html>
